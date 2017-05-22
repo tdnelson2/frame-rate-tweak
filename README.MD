@@ -1,8 +1,8 @@
-# ffmpeg Frame Rate Tweaker
+# FFmpeg Frame Rate Tweaker
 Batch convert frame rate of all videos within a folder without transcoding
 
-## ffmpeg
-* Be sure you have [ffmepg](https://trac.ffmpeg.org/wiki/CompilationGuide/MacOSX) installed. If you don't, this script will not work.
+## FFmpeg
+* Be sure you have [FFmepg](https://trac.ffmpeg.org/wiki/CompilationGuide) installed. If you don't, this script will not work.
 
 ## Motivation
 * On a recent trip to Rwanda I gathered over 1,000 videos for a project I'm working on for a nonprofit. Some of the video was shot in 59.94 fps while others were shot in 29.97 fps. By default, 59.94 fps videos playback at normal speed. Viewing them in slow motion is a tedious process of parsing through which ones are 59.94 fps, bringing them into Final Cut, setting their playback to 50% speed, then exporting (re-encoding). This script does all that without the need to re-encode. It simply copies each video to a new folder and changes the metadata for each frame in the video to match the desired frame rate.
