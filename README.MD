@@ -25,3 +25,4 @@ sh /path/to/the/script/frame_rate_tweak.sh -e mov -s 59.94 -t 29.97 -o slow-moti
 * Audio no longer works after conversion. There is probably a way to fix this, but since I didn't need the audio, I didn't spend time to figure it out.
 * Playback is not guarinteed to work correctly on all players.
 * Timestamps may be incorrect.
+* Doesn't work for speeding up videos. Only slowing down.
