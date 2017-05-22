@@ -2,8 +2,7 @@
 Batch convert frame rate of all videos within a folder without transcoding
 
 ## ffmpeg
-* Be sure you have [ffmepg](https://trac.ffmpeg.org/wiki/CompilationGuide/
-MacOSX) installed. If you don't, this script will not work.
+* Be sure you have [ffmepg](https://trac.ffmpeg.org/wiki/CompilationGuide/MacOSX) installed. If you don't, this script will not work.
 
 ## Use
 * In terminal, go to directory containing videos (ex: `cd path/to/video/folder`).
