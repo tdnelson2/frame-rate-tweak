@@ -1,7 +1,9 @@
 # ffmpeg Frame Rate Tweaker
-Batch convert frame rate of all videos withing a folder without transcoding
+Batch convert frame rate of all videos within a folder without transcoding
+## ffmpeg
+* Be sure you have [ffmepg](https://trac.ffmpeg.org/wiki/CompilationGuide/
+MacOSX) installed. If you don't, this script will not work.
 ## Use
-* Be sure you have [ffmepg](https://trac.ffmpeg.org/wiki/CompilationGuide/MacOSX) installed. If you don't, this program will not work.
 * In terminal, go to directory containing videos (ex: `cd path/to/video/folder`).
 * Run the script:
 ~~~
@@ -15,6 +17,6 @@ sh /path/to/the/script/frame_rate_tweak.sh -e mov -s 59.94 -t 29.97 -o slow-moti
 -o          Output Folder (ex: slow-motion)
 ~~~
 ## Known issues
-* Audio is no longer works after conversion. There is probably a way to fix this, but since I didn't need the audio, I didn't spend time to figure it out.
-* Playback may not be guarinteed to work correctly on all players
-* Timecode may be corrupted for some files
+* Audio no longer works after conversion. There is probably a way to fix this, but since I didn't need the audio, I didn't spend time to figure it out.
+* Playback is not guarinteed to work correctly on all players.
+* Timestamps may be incorrect.
