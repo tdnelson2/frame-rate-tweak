@@ -43,7 +43,7 @@ done
 contents=$(ls "$output_folder")
 if [[ "$contents" == "" ]] ; then
 	rm -R "$output_folder"
-	printf "\nNo MOV files  (-s)\n"
+	printf "\nNo $file_extension files found\n"
 else
 	printf "\nFrame rate change succesfull for the following videos:\n\n$contents\n\n"
 fi
